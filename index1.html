@@ -1,0 +1,51 @@
+<html></html>
+   <head>
+    <title>prgm2</title>
+    <style>
+        input{
+            background-color: antiquewhite;
+        }
+        label{
+            font-size: large;
+        }
+    </style>
+   </head>
+   <body bgcolor="lightblue">
+
+    <form>
+
+        <h1>MCA Student Registration Form</h1>    
+        <label for="admn">Admission No:</label>
+         <input type="text" name="admn">
+         <br>
+         <br>
+         <label  for="name" style="display: inline-block;">Student Name:</label><br><br>
+         <input type="text" id="fname" name="fname" placeholder="FirstName">
+         <input type="text" id="lname" name="lname" placeholder="LastName"><br>
+         <br>
+         <label for="dad">Fathers Name:</label>
+         <input type="text" id="dad" name="dad"><br><br>
+         <label for="dob">Date Of Birth:</label>
+         <input type="date" name="dob" id="dob"><br><br>
+         <label for="mob">Mobile No:</label>
+         <input type="tel" value="+91" pattern="[0-9]{10}" id="mob" name="mob" required><br><br>
+         <label for="email">Email Id:</label>
+         <input type="email" name="email" id="email"><br><br
+         <label for="pswd">Password:</label>
+         <input type="password" id="pswd" name="pswd"><br><br>
+         <label for="gender">Gender:</label>
+         Male<input type="radio" name="gender" id="male" value="male">
+         Female<input type="radio" name="gender" id="fmale" value="Female">
+         Other<input type="radio" name="gender" id="other" value="other"><br><br>
+         <label for="pic">Student Photo:</label>
+         <input type="file" name="pic" id="pic"><br><br>
+         <button>Register</button>
+
+
+
+        
+    </form>
+        
+       
+   </body>
+</html>

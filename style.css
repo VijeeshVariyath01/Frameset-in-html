@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    color: #333;
+}
+
+header {
+    background-color: #e50027; 
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+.hero {
+    background-color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 3px solid #e50027;
+}
+
+.hero h1 {
+    color: #000;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.hero p {
+    color: #e50027;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero-image {
+    min-height: 200px;
+    background-color: #ddd;
+    margin-top: 15px;
+}
+
+/* --- Section Styling --- */
+section {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.about-us h2, .message h2 {
+    color: #e50027;
+    font-size: 24px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #e50027;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.stat-box h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.stat-box p {
+    font-size: 12px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
